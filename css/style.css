@@ -41,7 +41,6 @@ body{
 }
 .text{
     text-transform: uppercase;
-    font-family: "Ubuntu";
 }
 .left-side{
     display: inline-block;
