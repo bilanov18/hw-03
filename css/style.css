@@ -1,0 +1,90 @@
+html{
+box-sizing: border-box;
+}
+*, * ::before, *::after{
+    box-sizing: inherit;
+}
+body{
+    width: 900px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Playfair Display";
+    color: #626262;
+}
+.navigation{
+    width: 900px;
+    margin: 0 auto;
+    list-style: none;
+    padding: 100px 0px 100px 0px;
+    text-align: center;
+    font-size: 0;
+    text-transform: uppercase;
+}
+.nav{
+    display: inline-block;
+    margin-right: 60px;
+    font-size: 14px;
+}
+.link:hover{
+    color: cornflowerblue;
+}
+.link{
+    text-decoration: none;
+    color: #626262;
+}
+.conteiner{
+    width: 900px;
+    margin: 0 auto;
+    font-size: 0;
+    text-align: justify;
+}
+.text{
+    text-transform: uppercase;
+    font-family: "Ubuntu";
+}
+.left-side{
+    display: inline-block;
+    width: 420px;
+    margin: 0 auto;
+    margin-right: 60px;
+    margin-bottom: 140px;
+    font-size: 14px;
+}
+.right-side{
+    display: inline-block;
+    width: 420px;
+    margin: 0 auto;
+    margin-right: 0;
+    margin-bottom: 140px;
+    font-size: 14px;
+}
+.bottom-left{
+    display: inline-block;
+    width: 420px;
+    margin: 0 auto;
+    margin-right: 60px;
+    font-size: 14px;
+}
+.bottom-right{
+    display: inline-block;
+    width: 420px;
+    margin: 0 auto;
+    margin-right: 0px;
+    font-size: 14px;
+}
+.buttom{
+    margin: 0 auto;
+    padding: 80px 0px 80px 0px;
+    text-align: center;
+}
+button{
+    display: inline-block;
+    width: 120px;
+    height: 60px;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: 1px solid #626262;
+}
