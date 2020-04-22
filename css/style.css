@@ -21,6 +21,9 @@ body{
     font-size: 0;
     text-transform: uppercase;
 }
+.navigation li:last-child{
+    margin-right: 0;
+}
 .nav{
     display: inline-block;
     margin-right: 60px;
@@ -39,8 +42,13 @@ body{
     font-size: 0;
     text-align: justify;
 }
+h2{
+    font-size: 30px;
+}
 .text{
     text-transform: uppercase;
+    font-family: "Ubuntu";
+    color: #b4ad9e;
 }
 .left-side{
     display: inline-block;
@@ -86,4 +94,5 @@ button{
     font-size: 14px;
     text-transform: uppercase;
     border: 1px solid #626262;
+    font-family: "Playfair Display";
 }
